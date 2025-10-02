@@ -1,5 +1,4 @@
-# Actividad 1. Ejercicios de unidad 
-
+# Actividad 1. Ejercicios de unidad – 
 
 ## 1. Funciones del administrador de la base de datos  
 El administrador se encarga de cuidar la base de datos: crearla, darle permisos a los usuarios, hacer copias de seguridad y arreglarla si se rompe.  
@@ -164,4 +163,3 @@ c) **Mixta:** primero por departamento y dentro de cada uno dividir en personale
 | Control de concurrencia | No                   | Sí                         |
 | Independencia de datos  | No                   | Sí                         |
 | Seguridad               | Baja                 | Alta                       |
-
