@@ -18,8 +18,9 @@ Los principales usuarios que interactúan con el sistema son:
 
 - **Administradores/Gestores del club**:  
   - Gestionar horarios de apertura y disponibilidad.   
-  - Revisar pagos y facturación.
-  - 
+  - Revisar pagos y facturación.  
+  
+
 ---
 
 ## 2. Datos  
@@ -28,7 +29,7 @@ El sistema recoge y gestiona la siguiente información:
 - **De los usuarios**: nombre, apellidos, correo electrónico, teléfono, método de pago.  
 - **De las reservas**: fecha, hora, pista, duración, estado (reservada, cancelada, pendiente).  
 - **De las pistas**: número de pista, ubicación (interior/exterior), estado (disponible, ocupada).  
-- **De los pagos**:  método de pago, facturas.  
+- **De los pagos**: importe, método de pago, facturas.  
 
 ---
 
@@ -51,7 +52,7 @@ El sistema suele basarse en una combinación de:
 - **lógica del sistema:** API REST en Java, Node.js o Python.  
 - **Base de datos:** Relacional (MySQL) para usuarios, reservas y pagos.  
 - **Infraestructura:** Servidores en la nube (AWS).  
-- **Pasarela de pago:**  PayPal , VISA .  
+- **Pasarela de pago:**  PayPal , VISA o Efectivo.  
 
 ---
 
@@ -62,7 +63,6 @@ El sistema de reservas de pistas de pádel tiene como finalidad:
 - Optimizar la gestión del club, evitando llamadas telefónicas y reservas manuales.  
 - Mejorar la **organización y control de ingresos**.  
 - Aumentar la satisfacción del usuario al ofrecer disponibilidad en tiempo real.  
-
 
 
 
